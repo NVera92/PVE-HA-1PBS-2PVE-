@@ -12,8 +12,9 @@ Recurso:  https://tteck.github.io/Proxmox/#proxmox-ve-tools
 
 El PBS va a ser elegido como controlador y se le va a instalar el kernel de PVE (pve-kernel-6.2) se va a modificar su source.list para admitir los paquetes de PVE.
 
-Recurso:  https://forum.proxmox.com/threads/install-pve-on-an-existing-pbs-server.133572/
-          https://pve.proxmox.com/wiki/Install_Proxmox_VE_on_Debian_11_Bullseye (en mi caso utilice la version Wormbook, remplace la version Bullseye por Wormbook)
+Recurso:  https://pve.proxmox.com/wiki/Package_Repositories (Source List)
+		  https://forum.proxmox.com/threads/install-pve-on-an-existing-pbs-server.133572/
+          https://pve.proxmox.com/wiki/Install_Proxmox_VE_on_Debian_11_Bullseye (en mi caso utilice la version bookworm, remplace la version Bullseye por bookworm)
 
 Se siguen las instrucciones del video oficial de instalación de Linstor con Proxmox.
 
