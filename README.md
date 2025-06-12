@@ -31,3 +31,11 @@ Una vez armado el cluster, se crea un HA-GROUP que solo contenga a los PVE, mi i
 Se crea una VM en cualquiera de los PVE, una vez listo y desmontado el ISO, se prueba migrar hacia el otro PVE, si se realiza de manera exitosa, vamos con la prueba de
 manejo de HA, se produce desconexion del equipo que contiene la VM y aproximadamente al minuto y medio el cluster registra la caida del equipo y un minuto y medio más
 deberia realizar la migracíon al PVE restante iniciar automaticamente recuperando asi el servicio.
+
+LISNTOR GUI
+
+Se implemento una GUI oficial para el control del sistema, de simple instalacion en el nodo que es el controlador de Lisntor.
+
+Recursos:
+https://linbit.com/wp-content/uploads/2024/05/LINBITGUIinstallationguide052424.pdf
+https://linbit.com/linbit-gui/
