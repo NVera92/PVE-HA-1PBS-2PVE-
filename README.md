@@ -8,7 +8,8 @@ En 2 instalar Proxmox-PVE y PBS en la restante
 
 Se corren los scripts para el post-install de TTEK segun corresponda a su variante, en los de PVE no deshabilitar HA.
 
-Recurso:  https://tteck.github.io/Proxmox/#proxmox-ve-tools
+Recurso:	https://tteck.github.io/Proxmox/#proxmox-ve-tools <--(Original de TTEK)
+		https://community-scripts.github.io/ProxmoxVE/ <-- (Versión de la Comunidad)
 
 El PBS va a ser elegido como controlador y se le va a instalar el kernel de PVE (pve-kernel-6.2) se va a modificar su source.list para admitir los paquetes de PVE.
 
